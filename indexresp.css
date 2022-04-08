@@ -50,11 +50,17 @@ h2 {
     border-radius: 3px;
     border: #343333 solid 3px;
     margin-left: auto;
+    
+}
+
+.logo :hover{
+    transform: skewX(20deg);
 }
 
 .logo {
     text-align: center;
     margin-top: 50px;
+    
 }
 
 
