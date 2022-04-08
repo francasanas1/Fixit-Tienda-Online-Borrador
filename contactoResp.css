@@ -1,0 +1,145 @@
+*{  margin: 0;
+    padding: 0;
+}
+.nav {
+    background-color: #343333;
+    padding: 5px;
+    text-align: left ;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.body {
+    background-color: #F5F5F5;
+}
+
+.menuli {
+    padding: 3px;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.menuli a {
+    color: aliceblue;
+    text-decoration: none;
+    border: #000;
+    margin-right: 20px;
+}
+
+.menuli i {
+    margin-right: 10px;
+}
+
+.registro{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    background-color: #343333;
+    padding: 10px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 3px;
+    box-shadow: 7px 14px 37px #000;
+    
+}
+
+.control {
+    width: 90%;
+    margin: auto;
+    background-color: #F5F5F5 ;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    padding: 30px 10px;
+    border: 1px solid #343333;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.boton {
+    margin: auto;
+    width: 50%;
+    padding: 2px;
+    background-color: #F5F5F5  ;
+    margin-bottom: 5px;
+    font-size: 15px;
+} 
+
+.boton:hover {
+    background-color: #A9A9A9;    
+}
+
+@media only screen and (min-width: 415px) {
+    *{ 
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background-color: #F5F5F5;
+    }
+    
+    .nav{
+        background-color: #343333;
+        width: 100%;
+        text-align: left;      
+        position: sticky;
+        
+    }
+    
+    .menuli { 
+        font-size: 20px;
+        color: aliceblue;
+        display: inline-block;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 50px;
+    }
+    
+    .menuli a {
+        color: aliceblue;
+        text-decoration: none;
+        border: #000;
+        margin-right: 20px;
+    }
+    
+    .menuli i {
+        margin-right: 10px;
+    }
+    
+    .registro{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        background-color: #343333;
+        padding: 40px;
+        margin: auto;
+        margin-top: 50px;
+        border-radius: 3px;
+        box-shadow: 7px 14px 37px #000;
+    }
+    
+    .control {
+        width: 100%;
+        background-color: #F5F5F5 ;
+        border-radius: 4px;
+        margin-bottom: 20px;
+        padding: 15px;
+        border: 1px solid #343333;
+        font-size: 15px;
+    
+    }
+    
+    .boton {
+        margin: 10px 80px;
+        padding: 12px;
+        background-color: #F5F5F5  ;
+        margin-bottom: 5px;
+    } 
+    
+    .boton:hover {
+        background-color: #A9A9A9;    
+    }
+    
+}
