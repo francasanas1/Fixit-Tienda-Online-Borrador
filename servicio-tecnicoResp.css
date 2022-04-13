@@ -46,6 +46,13 @@
     width: 100px;
 }
 
+.atributo:hover {
+    transform: scale(1.2,1.2);
+}
+
+.body2 input:hover {
+    transform: scale(1.1,1.1);
+}
 
 .body2 h1 {
     font-size: 50px;

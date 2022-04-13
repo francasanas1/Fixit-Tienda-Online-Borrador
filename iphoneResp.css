@@ -41,7 +41,9 @@
     justify-content: space-around ;
     margin: 20px 20px;
 }
-
+.iphones1:hover {
+    transform: scale(1.1,1.1);
+}
 .iphones1 {
     margin: auto;
 }
